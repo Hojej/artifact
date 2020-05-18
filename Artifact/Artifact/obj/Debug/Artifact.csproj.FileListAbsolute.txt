@@ -1,0 +1,10 @@
+C:\Users\hooje\source\repos\Artifact\Artifact\bin\Debug\Artifact.exe.config
+C:\Users\hooje\source\repos\Artifact\Artifact\bin\Debug\Artifact.exe
+C:\Users\hooje\source\repos\Artifact\Artifact\bin\Debug\Artifact.pdb
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.csprojAssemblyReference.cache
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.Form1.resources
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.Properties.Resources.resources
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.csproj.GenerateResource.cache
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.csproj.CoreCompileInputs.cache
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.exe
+C:\Users\hooje\source\repos\Artifact\Artifact\obj\Debug\Artifact.pdb
