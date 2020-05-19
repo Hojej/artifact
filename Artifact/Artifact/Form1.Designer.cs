@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnLoadCPI = new System.Windows.Forms.Button();
             this.IPInput = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -37,8 +37,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.Picbox = new System.Windows.Forms.PictureBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.lblTest = new System.Windows.Forms.Label();
+            this.pbairplane = new System.Windows.Forms.PictureBox();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox)).BeginInit();
             this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbairplane)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -50,14 +56,15 @@
             this.button1.Text = "Start Artifact";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnLoadCPI
             // 
-            this.button2.Location = new System.Drawing.Point(275, 604);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(257, 47);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Load CPI";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnLoadCPI.Location = new System.Drawing.Point(275, 604);
+            this.btnLoadCPI.Name = "btnLoadCPI";
+            this.btnLoadCPI.Size = new System.Drawing.Size(257, 47);
+            this.btnLoadCPI.TabIndex = 1;
+            this.btnLoadCPI.Text = "Load CPI";
+            this.btnLoadCPI.UseVisualStyleBackColor = true;
+            this.btnLoadCPI.Click += new System.EventHandler(this.btnLoadCPI_Click);
             // 
             // IPInput
             // 
@@ -99,6 +106,7 @@
             this.button3.TabIndex = 6;
             this.button3.Text = "Show/Hide Object";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.btnShowHide);
             // 
             // button4
             // 
@@ -111,6 +119,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.pbairplane);
+            this.groupBox1.Controls.Add(this.Picbox);
             this.groupBox1.Location = new System.Drawing.Point(558, 13);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(689, 638);
@@ -118,8 +128,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "View";
             // 
+            // Picbox
+            // 
+            this.Picbox.Location = new System.Drawing.Point(3, 16);
+            this.Picbox.Name = "Picbox";
+            this.Picbox.Size = new System.Drawing.Size(686, 616);
+            this.Picbox.TabIndex = 0;
+            this.Picbox.TabStop = false;
+            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.lblTest);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.IPInput);
             this.groupBox2.Controls.Add(this.label2);
@@ -131,6 +150,23 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Input";
             // 
+            // lblTest
+            // 
+            this.lblTest.AutoSize = true;
+            this.lblTest.Location = new System.Drawing.Point(11, 148);
+            this.lblTest.Name = "lblTest";
+            this.lblTest.Size = new System.Drawing.Size(39, 13);
+            this.lblTest.TabIndex = 6;
+            this.lblTest.Text = "Output";
+            // 
+            // pbairplane
+            // 
+            this.pbairplane.Location = new System.Drawing.Point(205, 267);
+            this.pbairplane.Name = "pbairplane";
+            this.pbairplane.Size = new System.Drawing.Size(345, 135);
+            this.pbairplane.TabIndex = 1;
+            this.pbairplane.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -140,12 +176,15 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnLoadCPI);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "Radar Artifact";
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Picbox)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbairplane)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -153,7 +192,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnLoadCPI;
         private System.Windows.Forms.TextBox IPInput;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -162,6 +201,9 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Label lblTest;
+        private System.Windows.Forms.PictureBox Picbox;
+        private System.Windows.Forms.PictureBox pbairplane;
     }
 }
 
