@@ -18,3 +18,22 @@ C:\Users\hooje\Documents\repos\artifact\Artifact\Artifact\obj\Debug\Artifact.csp
 C:\Users\hooje\Documents\repos\artifact\Artifact\Artifact\obj\Debug\Artifact.csproj.CoreCompileInputs.cache
 C:\Users\hooje\Documents\repos\artifact\Artifact\Artifact\obj\Debug\Artifact.exe
 C:\Users\hooje\Documents\repos\artifact\Artifact\Artifact\obj\Debug\Artifact.pdb
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.exe.config
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.exe
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.pdb
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.csprojAssemblyReference.cache
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.Form1.resources
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.Properties.Resources.resources
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.csproj.GenerateResource.cache
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.exe
+C:\Users\Mallamba\Google Drive\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.pdb
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.exe.config
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.exe
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\bin\Debug\Artifact.pdb
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.csprojAssemblyReference.cache
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.Form1.resources
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.Properties.Resources.resources
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.csproj.GenerateResource.cache
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.csproj.CoreCompileInputs.cache
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.exe
+C:\Users\hooje\Desktop\New folder\artifact-master\artifact-master\Artifact\Artifact\obj\Debug\Artifact.pdb
